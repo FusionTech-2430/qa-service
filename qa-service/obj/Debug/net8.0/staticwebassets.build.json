@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "iiEMkIqdx4z7C6Bh6/QR/buOOpuH5WQUt9oxVvizWh8=",
+  "Source": "qa-service",
+  "BasePath": "_content/qa-service",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
