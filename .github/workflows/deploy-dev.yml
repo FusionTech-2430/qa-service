@@ -34,6 +34,8 @@ jobs:
             echo "DB_USER=sa" >> .env
             echo "DB_PASSWORD=Password123" >> .env
             echo "DB_TRUST_SERVER_CERTIFICATE=True" >> .env
+            echo "EUREKA__CLIENT__SERVICEURL=http://${{ secrets.DEV_INTEG_HOST }}:8761/eureka/" >> .env
+            echo "EUREKA__INSTANCE__PORT=${{ secrets.SERVICE_PORT }}" >> .env
             docker rm -f ${{ github.event.repository.name }}
             docker run --name ${{ github.event.repository.name }} --network all_connected -d -p ${{ secrets.SERVICE_PORT }}:8080 --env-file .env ${{ github.event.repository.name }}
             echo "Docker container running..."
