@@ -7,7 +7,7 @@ using qa_service.Repositories.Interfaces;
 using qa_service.UseCases.Interfaces;
 using qa_service.UseCases.Implementations;
 using questions_service.Repositories.Implementations;
-using System;
+using Steeltoe.Discovery.Client;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -42,6 +42,7 @@ catch (Exception ex)
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddDiscoveryClient(builder.Configuration);
 
 // Inyectar el connectionString en el repositorio
 builder.Services.AddScoped<IQuestionRepository>(_ => new QuestionRepository(connectionString));
@@ -60,5 +61,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseAuthorization();
+app.UseDiscoveryClient();
 app.MapControllers();
 app.Run();
