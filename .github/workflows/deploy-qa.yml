@@ -1,14 +1,14 @@
-name: Deploy Develop
+name: Deploy QA
 on:
   pull_request:
     branches:
-      - develop
+      - release
     types:
       - closed
   workflow_dispatch:
 jobs:
   Deploy:
-    name: Deploy on Develop
+    name: Deploy on QA
     if: ${{ github.event.pull_request.merged == true }}
     runs-on: self-hosted
     steps:
@@ -23,7 +23,7 @@ jobs:
             cd AllConnected/${{ github.event.repository.name }}
             echo "Fetching latest code..."
             git fetch
-            git checkout develop
+            git checkout release
             git pull
             echo "Building Docker image..."
             cd ${{ github.event.repository.name }}
