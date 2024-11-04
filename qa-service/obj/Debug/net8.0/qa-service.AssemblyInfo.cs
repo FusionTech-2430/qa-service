@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("qa-service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+624e26039c1dadc6737c158fc7804fbc92128758")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f620d70b5edfde66850495efe07a0d6f3d59b5bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("qa-service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("qa-service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
