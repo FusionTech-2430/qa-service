@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "qa_service.Controllers.QuestionController",
+    "Method": "GetQuestions",
+    "RelativePath": "api/v1/questions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "qa_service.Controllers.QuestionController",
+    "Method": "CreateQuestion",
+    "RelativePath": "api/v1/questions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questionRequest",
+        "Type": "qa_service.Entities.QuestionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "qa_service.Controllers.QuestionController",
+    "Method": "GetQuestionById",
+    "RelativePath": "api/v1/questions/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "qa_service.Controllers.QuestionController",
+    "Method": "UpdateQuestion",
+    "RelativePath": "api/v1/questions/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "questionRequest",
+        "Type": "qa_service.Entities.QuestionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "qa_service.Controllers.QuestionController",
+    "Method": "DeleteQuestion",
+    "RelativePath": "api/v1/questions/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
