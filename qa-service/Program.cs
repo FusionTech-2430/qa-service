@@ -7,14 +7,14 @@ using qa_service.Repositories.Interfaces;
 using qa_service.UseCases.Interfaces;
 using qa_service.UseCases.Implementations;
 using questions_service.Repositories.Implementations;
-using System;
+using Steeltoe.Discovery.Client;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Cargar las variables de entorno desde el archivo .env
 Env.Load();
 
-// Construir la cadena de conexión desde las variables de entorno
+// Construir la cadena de conexiï¿½n desde las variables de entorno
 var server = Environment.GetEnvironmentVariable("DB_SERVER") ?? throw new InvalidOperationException("DB_SERVER is not set in environment variables.");
 var database = Environment.GetEnvironmentVariable("DB_NAME") ?? throw new InvalidOperationException("DB_NAME is not set in environment variables.");
 var user = Environment.GetEnvironmentVariable("DB_USER") ?? throw new InvalidOperationException("DB_USER is not set in environment variables.");
@@ -23,7 +23,7 @@ var trustServerCertificate = Environment.GetEnvironmentVariable("DB_TRUST_SERVER
 
 var connectionString = $"Server={server};Database={database};User Id={user};Password={password};TrustServerCertificate={trustServerCertificate}";
 
-// Validar conexión a la base de datos
+// Validar conexiï¿½n a la base de datos
 try
 {
     using (var connection = new SqlConnection(connectionString))
@@ -42,6 +42,7 @@ catch (Exception ex)
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddDiscoveryClient(builder.Configuration);
 
 // Inyectar el connectionString en el repositorio
 builder.Services.AddScoped<IQuestionRepository>(_ => new QuestionRepository(connectionString));
@@ -52,13 +53,10 @@ builder.Services.AddScoped<IGetQuestionCU, GetQuestionCU>();
 
 var app = builder.Build();
 
-// Configurar Swagger en el pipeline
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseAuthorization();
+app.UseDiscoveryClient();
 app.MapControllers();
 app.Run();

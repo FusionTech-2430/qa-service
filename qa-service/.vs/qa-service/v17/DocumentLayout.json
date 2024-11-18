@@ -1,50 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Proyectos GH\\qa-service\\qa-service\\",
+  "WorkspaceRootPath": "C:\\Users\\esteb\\Documents\\Arqui\\AllConnected\\micros\\qa-service\\qa-service\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29DAD9D0-0A27-4E2C-BAB3-3AEA149728B6}|qa-service.csproj|e:\\proyectos gh\\qa-service\\qa-service\\qa-service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{29DAD9D0-0A27-4E2C-BAB3-3AEA149728B6}|qa-service.csproj|solutionrelative:qa-service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29DAD9D0-0A27-4E2C-BAB3-3AEA149728B6}|qa-service.csproj|e:\\proyectos gh\\qa-service\\qa-service\\usecases\\implementations\\createquestioncu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29DAD9D0-0A27-4E2C-BAB3-3AEA149728B6}|qa-service.csproj|solutionrelative:usecases\\implementations\\createquestioncu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29DAD9D0-0A27-4E2C-BAB3-3AEA149728B6}|qa-service.csproj|e:\\proyectos gh\\qa-service\\qa-service\\usecases\\implementations\\updatequestioncu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29DAD9D0-0A27-4E2C-BAB3-3AEA149728B6}|qa-service.csproj|solutionrelative:usecases\\implementations\\updatequestioncu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29DAD9D0-0A27-4E2C-BAB3-3AEA149728B6}|qa-service.csproj|e:\\proyectos gh\\qa-service\\qa-service\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29DAD9D0-0A27-4E2C-BAB3-3AEA149728B6}|qa-service.csproj|solutionrelative:controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29DAD9D0-0A27-4E2C-BAB3-3AEA149728B6}|qa-service.csproj|e:\\proyectos gh\\qa-service\\qa-service\\repositories\\implementations\\questionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29DAD9D0-0A27-4E2C-BAB3-3AEA149728B6}|qa-service.csproj|solutionrelative:repositories\\implementations\\questionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29DAD9D0-0A27-4E2C-BAB3-3AEA149728B6}|qa-service.csproj|e:\\proyectos gh\\qa-service\\qa-service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{29DAD9D0-0A27-4E2C-BAB3-3AEA149728B6}|qa-service.csproj|c:\\users\\esteb\\documents\\arqui\\allconnected\\micros\\qa-service\\qa-service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{29DAD9D0-0A27-4E2C-BAB3-3AEA149728B6}|qa-service.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29DAD9D0-0A27-4E2C-BAB3-3AEA149728B6}|qa-service.csproj|e:\\proyectos gh\\qa-service\\qa-service\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{29DAD9D0-0A27-4E2C-BAB3-3AEA149728B6}|qa-service.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29DAD9D0-0A27-4E2C-BAB3-3AEA149728B6}|qa-service.csproj|e:\\proyectos gh\\qa-service\\qa-service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{29DAD9D0-0A27-4E2C-BAB3-3AEA149728B6}|qa-service.csproj|c:\\users\\esteb\\documents\\arqui\\allconnected\\micros\\qa-service\\qa-service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29DAD9D0-0A27-4E2C-BAB3-3AEA149728B6}|qa-service.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29DAD9D0-0A27-4E2C-BAB3-3AEA149728B6}|qa-service.csproj|e:\\proyectos gh\\qa-service\\qa-service\\usecases\\interfaces\\icreatequestioncu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29DAD9D0-0A27-4E2C-BAB3-3AEA149728B6}|qa-service.csproj|solutionrelative:usecases\\interfaces\\icreatequestioncu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29DAD9D0-0A27-4E2C-BAB3-3AEA149728B6}|qa-service.csproj|e:\\proyectos gh\\qa-service\\qa-service\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{29DAD9D0-0A27-4E2C-BAB3-3AEA149728B6}|qa-service.csproj|c:\\users\\esteb\\documents\\arqui\\allconnected\\micros\\qa-service\\qa-service\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{29DAD9D0-0A27-4E2C-BAB3-3AEA149728B6}|qa-service.csproj|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29DAD9D0-0A27-4E2C-BAB3-3AEA149728B6}|qa-service.csproj|e:\\proyectos gh\\qa-service\\qa-service\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{29DAD9D0-0A27-4E2C-BAB3-3AEA149728B6}|qa-service.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,145 +54,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "qa-service",
-              "DocumentMoniker": "E:\\Proyectos GH\\qa-service\\qa-service\\qa-service.csproj",
-              "RelativeDocumentMoniker": "qa-service.csproj",
-              "ToolTip": "E:\\Proyectos GH\\qa-service\\qa-service\\qa-service.csproj",
-              "RelativeToolTip": "qa-service.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-03T16:00:56.008Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UpdateQuestionCU.cs",
-              "DocumentMoniker": "E:\\Proyectos GH\\qa-service\\qa-service\\UseCases\\Implementations\\UpdateQuestionCU.cs",
-              "RelativeDocumentMoniker": "UseCases\\Implementations\\UpdateQuestionCU.cs",
-              "ToolTip": "E:\\Proyectos GH\\qa-service\\qa-service\\UseCases\\Implementations\\UpdateQuestionCU.cs",
-              "RelativeToolTip": "UseCases\\Implementations\\UpdateQuestionCU.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T15:58:16.586Z",
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\esteb\\Documents\\Arqui\\AllConnected\\micros\\qa-service\\qa-service\\.env",
+              "RelativeDocumentMoniker": ".env",
+              "ToolTip": "C:\\Users\\esteb\\Documents\\Arqui\\AllConnected\\micros\\qa-service\\qa-service\\.env",
+              "RelativeToolTip": ".env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-04T04:09:39.287Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "QuestionController.cs",
-              "DocumentMoniker": "E:\\Proyectos GH\\qa-service\\qa-service\\Controllers\\QuestionController.cs",
-              "RelativeDocumentMoniker": "Controllers\\QuestionController.cs",
-              "ToolTip": "E:\\Proyectos GH\\qa-service\\qa-service\\Controllers\\QuestionController.cs",
-              "RelativeToolTip": "Controllers\\QuestionController.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAowGAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T15:56:35.83Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\Proyectos GH\\qa-service\\qa-service\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\esteb\\Documents\\Arqui\\AllConnected\\micros\\qa-service\\qa-service\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "E:\\Proyectos GH\\qa-service\\qa-service\\appsettings.json",
+              "ToolTip": "C:\\Users\\esteb\\Documents\\Arqui\\AllConnected\\micros\\qa-service\\qa-service\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-03T15:54:14.797Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "E:\\Proyectos GH\\qa-service\\qa-service\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "E:\\Proyectos GH\\qa-service\\qa-service\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-03T15:54:12.661Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "QuestionRepository.cs",
-              "DocumentMoniker": "E:\\Proyectos GH\\qa-service\\qa-service\\Repositories\\Implementations\\QuestionRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Implementations\\QuestionRepository.cs",
-              "ToolTip": "E:\\Proyectos GH\\qa-service\\qa-service\\Repositories\\Implementations\\QuestionRepository.cs",
-              "RelativeToolTip": "Repositories\\Implementations\\QuestionRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAwwCUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T15:49:08.531Z",
+              "WhenOpened": "2024-11-04T04:04:59.345Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CreateQuestionCU.cs",
-              "DocumentMoniker": "E:\\Proyectos GH\\qa-service\\qa-service\\UseCases\\Implementations\\CreateQuestionCU.cs",
-              "RelativeDocumentMoniker": "UseCases\\Implementations\\CreateQuestionCU.cs",
-              "ToolTip": "E:\\Proyectos GH\\qa-service\\qa-service\\UseCases\\Implementations\\CreateQuestionCU.cs",
-              "RelativeToolTip": "UseCases\\Implementations\\CreateQuestionCU.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T15:48:56.558Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ICreateQuestionCU.cs",
-              "DocumentMoniker": "E:\\Proyectos GH\\qa-service\\qa-service\\UseCases\\Interfaces\\ICreateQuestionCU.cs",
-              "RelativeDocumentMoniker": "UseCases\\Interfaces\\ICreateQuestionCU.cs",
-              "ToolTip": "E:\\Proyectos GH\\qa-service\\qa-service\\UseCases\\Interfaces\\ICreateQuestionCU.cs",
-              "RelativeToolTip": "UseCases\\Interfaces\\ICreateQuestionCU.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T15:48:45.788Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Proyectos GH\\qa-service\\qa-service\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\esteb\\Documents\\Arqui\\AllConnected\\micros\\qa-service\\qa-service\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\Proyectos GH\\qa-service\\qa-service\\Program.cs",
+              "ToolTip": "C:\\Users\\esteb\\Documents\\Arqui\\AllConnected\\micros\\qa-service\\qa-service\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAA4AAAA",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAUAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T15:39:56.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": ".env",
-              "DocumentMoniker": "E:\\Proyectos GH\\qa-service\\qa-service\\.env",
-              "RelativeDocumentMoniker": ".env",
-              "ToolTip": "E:\\Proyectos GH\\qa-service\\qa-service\\.env",
-              "RelativeToolTip": ".env",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-11-03T15:43:15.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "E:\\Proyectos GH\\qa-service\\qa-service\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "E:\\Proyectos GH\\qa-service\\qa-service\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-03T15:39:02.555Z",
+              "WhenOpened": "2024-11-04T03:59:34.795Z",
               "EditorCaption": ""
             }
           ]
